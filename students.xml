@@ -1,0 +1,41 @@
+<!-- Student Object -->
+<Students>
+    <student>
+        <FirstName>Anilkumar</FirstName>
+        <DOB>1991-04-05</DOB>
+        <Mobile>9000649912</Mobile>
+        <!--  these are fields -->
+        <Address>
+            <!-- there are objects -->
+            <Permanent Address>
+                <Flat>401</Flat>
+                <City>Nizamabad</City>
+                <State>Telangana</State>
+            </Permanent Address>
+            <Temporary Address>
+                <Flat>401</Flat>
+                <City>Nizamabad</City>
+                <State>Telangana</State>
+            </Temporary Address>
+        </Address>
+    </student>
+    <student>
+        <FirstName>Suresh</FirstName>
+        <DOB>1991-04-05</DOB>
+        <Mobile>9000649912</Mobile>
+        <!--  these are fields -->
+        <Address>
+            <!-- there are objects -->
+            <Permanent Address>
+                <Flat>401</Flat>
+                <City>Nizamabad</City>
+                <State>Telangana</State>
+            </Permanent Address>
+            <Temporary Address>
+                <Flat>401</Flat>
+                <City>Nizamabad</City>
+                <State>Telangana</State>
+            </Temporary Address>
+        </Address>
+    </student>
+</Students>

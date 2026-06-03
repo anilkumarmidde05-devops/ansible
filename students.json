@@ -1,0 +1,52 @@
+{
+    "Students":[
+    {
+ 
+    "firstname": "anillkumar",
+ "DOB":"1991-05-04",
+
+"address": [
+
+    {
+        "type": "Permanent",
+        "flat":401,
+        "city": "Hyderabad",
+        "State": "Telangana"
+    },
+    {
+        "type": "Temporary",
+        "flat":401,
+        "city": "Hyderabad",
+        "State": "Telangana"
+    }
+],
+
+"skills": ["java", "devops", "cloud"]
+
+},
+ {
+ 
+    "firstname": "Suresh",
+ "DOB":"1991-05-04",
+
+"address": [
+
+    {
+        "type": "Permanent",
+        "flat":401,
+        "city": "Hyderabad",
+        "State": "Telangana"
+    },
+    {
+        "type": "Temporary",
+        "flat":401,
+        "city": "Hyderabad",
+        "State": "Telangana"
+    }
+],
+
+"skills": ["java", "devops", "cloud"]
+
+}
+    ]
+}

@@ -1,0 +1,13 @@
+- name: "Anilkumar"
+  dob: "191-04-05"
+  mobile: 9666505686
+  address:
+    - flat: 401
+      city: "Hyderabad"
+      State: "Telangana"
+      type: "Permanent"
+
+    - flat: 401
+      city: "Hyderabad"
+      State: "Telangana"
+      type: "Temporary"
