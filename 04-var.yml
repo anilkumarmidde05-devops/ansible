@@ -6,6 +6,6 @@
     Duration: 140+hrs
     Trainer: "Sivakumar"
   Tasks:
-    name: print variables
-    ansible.builtin.debug:
-      msg: "Course is {{Courese}}, Trainer is: {{Trainer}}"
+    - name: print variables
+      ansible.builtin.debug:
+        msg: "Course is {{Courese}}, Trainer is: {{Trainer}}"
