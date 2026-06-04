@@ -1,6 +1,6 @@
 - name: prompt the username and password
   hosts: local
-  connectin: local
+  connection: local
   vars_prompt:
     - name: username
       prompt: please enter the username
