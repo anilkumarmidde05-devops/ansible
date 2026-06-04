@@ -1,6 +1,6 @@
 - name: play level variables
   hosts: local
-  connnection: local
+  connection: local
   vars:
     Courese: "Devops with AWS"
     Duration: 140+hrs
