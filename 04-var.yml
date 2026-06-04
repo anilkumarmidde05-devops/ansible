@@ -5,7 +5,7 @@
     Courese: "Devops with AWS"
     Duration: 140+hrs
     Trainer: "Sivakumar"
-  Tasks:
+  tasks:
     - name: print variables
       ansible.builtin.debug:
         msg: "Course is {{Courese}}, Trainer is: {{Trainer}}"
