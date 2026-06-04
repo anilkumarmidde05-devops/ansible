@@ -5,7 +5,7 @@
     NAME: "Ansbile from play"
   vars_files:
     - course.yml
-  vars_promt:
+  vars_prompt:
     - name: NAME
       prompt: Please enter name
       private: false
