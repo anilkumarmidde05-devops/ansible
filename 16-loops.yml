@@ -1,0 +1,11 @@
+- name: loops Topics
+  hosts: local
+  connection: local
+  tasks:
+    - name: print the details
+      ansibile.builtin.debug:
+        msg: "Hello {{item}}"
+      loop:
+        - Ramesh
+        - Anilkumar
+        - SivaReddy
