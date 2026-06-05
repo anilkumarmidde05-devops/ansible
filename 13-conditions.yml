@@ -7,5 +7,4 @@
     - name: checking Conditions
       ansible.builtin.debug:
         msg: "Yes sessions are greater than expected"
-      #when: Number_of_Sessions < 5
-      when: "{{ansible_facts}}"
+      when: Number_of_Sessions < 5
