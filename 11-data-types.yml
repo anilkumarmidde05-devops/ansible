@@ -12,12 +12,12 @@
       - linux
       - shell
       - Ansible
-    tasks:
-      - name: print the details
-        ansible.builtin.debug:
-          msg: |
-            program: {{Program}}
-            Duration: {{Duration}}
-            Is live? : {{IS_Live}}
-            Details:  {{Details}}
-            Topics: {{Topics}}
+  tasks:
+    - name: print the details
+      ansible.builtin.debug:
+        msg: |
+          program: {{Program}}
+          Duration: {{Duration}}
+          Is live? : {{IS_Live}}
+          Details:  {{Details}}
+          Topics: {{Topics}}
