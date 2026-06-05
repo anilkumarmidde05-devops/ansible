@@ -10,3 +10,12 @@
     - name: print the users_output
       ansible.builtin.debug:
         msg: "{{users_output}}"
+
+    - name: files print
+      #ansible.buitlin.command: cat /etc/passwd | grep root
+      ansible.builtin.shell: ls -ltr > files.txt
+      register: files_output
+
+    - name: print the files output
+      ansible.builtin.debug:
+        msg: "{{files_output}}"
