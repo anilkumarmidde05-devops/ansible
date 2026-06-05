@@ -7,4 +7,4 @@
     - name: checking Conditions
       ansible.builtin.debug:
         msg: "Yes, it is live"
-      When: IS_Live
+      when: IS_Live
