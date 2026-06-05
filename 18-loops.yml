@@ -8,6 +8,6 @@
         name: "{{ item.name }}"
         state: "{{item.state}}"
       loop: # list of map
-        - { { name: "mysql", state: "absent" } } # it is a map
-        - { { name: "nginx", state: "present" } }
-        - { { name: "zip", state: "present" } }
+        - { name: "mysql", state: "absent" } # it is a map
+        - { name: "nginx", state: "present" }
+        - { name: "zip", state: "present" }
