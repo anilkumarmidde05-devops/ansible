@@ -15,7 +15,7 @@
   tasks:
     - name: print the details
       ansible.builtin.debug:
-        msg: |
+        msg: | # pipe symbol is for readability showing in multiple lines
           program: {{Program}}
           Duration: {{Duration}}
           Is live? : {{IS_Live}}
