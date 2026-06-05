@@ -1,0 +1,10 @@
+- name: Conditions
+  hosts: local
+  connection: local
+  vars:
+    Number_of_Sessions: 7
+  tasks:
+    - name: checking Conditions
+      ansible.builtin.debug:
+        msg: "Yes sessions are greater than expected"
+      when: Number_of_Sessions > 5
