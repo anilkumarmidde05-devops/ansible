@@ -3,6 +3,7 @@
   connection: local
   vars:
     topics: linux, shell, ansible, teraform # string type
+    course: "Devops with anilkumar"
     tagsmap: ## below are map type
       name: ansible
       project: Devops
@@ -38,3 +39,11 @@
     - name: convert to json
       ansible.builtin.debug:
         msg: "{{ student_yml | to_nice_json }}"
+
+    - name: convert to upper
+      ansible.builtin.debug:
+        msg: "{{course | upper}}"
+
+    - name: convert to lower
+      ansible.builtin.debug:
+        msg: "{{course | lower}}"
