@@ -4,7 +4,8 @@
   vars:
     topics: linux, shell, ansible, teraform # string type
     course: "Devops with anilkumar"
-    myIp: "256.287.870.25"
+    #myIp: "256.287.870.25"
+    myIP: "192.23.89.123"
     tagsmap: ## below are map type
       name: ansible
       project: Devops
