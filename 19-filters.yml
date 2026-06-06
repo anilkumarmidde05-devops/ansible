@@ -4,6 +4,7 @@
   vars:
     topics: linux, shell, ansible, teraform # string type
     course: "Devops with anilkumar"
+    myip: "256.287.870.25"
     tagsmap: ## below are map type
       name: ansible
       project: Devops
@@ -47,3 +48,7 @@
     - name: convert to lower
       ansible.builtin.debug:
         msg: "{{course | lower}}"
+
+    - name: check the ipv4
+      ansible.builtin.debug:
+        msg: "{{myip | ansible.utils.ipv4}"
