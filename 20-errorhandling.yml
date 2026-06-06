@@ -1,0 +1,11 @@
+- name: demo on error handling
+  hosts: local
+  connection: local
+  tasks:
+    - name: user exist or not
+      ansible.builtin.command: id roboshop
+      register: users_output
+
+    - name: print error
+      ansible.builtin.debug:
+        msg: "{{users_output}}"
