@@ -7,7 +7,7 @@
       name: ansible
       project: Devops
       component: catalogue
-    tagslist:
+    tagslist:[
     {
             "key": "name",
             "value": "ansible"
@@ -20,7 +20,7 @@
             "key": "component",
             "value": "catalogue"
         }
-
+    ] 
   tasks:
     - name: greetins
       ansible.builtin.debug:
