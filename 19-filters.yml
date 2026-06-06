@@ -4,7 +4,7 @@
   vars:
     topics: linux, shell, ansible, teraform # string type
     course: "Devops with anilkumar"
-    myip: "256.287.870.25"
+    myIp: "256.287.870.25"
     tagsmap: ## below are map type
       name: ansible
       project: Devops
@@ -51,4 +51,4 @@
 
     - name: check the ipv4
       ansible.builtin.debug:
-        msg: "{{ myIp | ansible.utils.ipv4}}"
+        msg: "{{ myIp | ansible.utils.ipv4 }}"
