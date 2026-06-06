@@ -7,20 +7,13 @@
       name: ansible
       project: Devops
       component: catalogue
-    tagslist:[
-    {
-            "key": "name",
-            "value": "ansible"
-        },
-        {
-            "key": "project",
-            "value": "Devops"
-        },
-        {
-            "key": "component",
-            "value": "catalogue"
-        }
-    ] 
+    tagslist:
+      [
+        { "key": "name", "value": "ansible" },
+        { "key": "project", "value": "Devops" },
+        { "key": "component", "value": "catalogue" },
+      ]
+
   tasks:
     - name: greetins
       ansible.builtin.debug:
@@ -33,7 +26,7 @@
     - name: convert map to list
       ansible.builtin.debug:
         msg: "{{ tagsmap | dict2items }}"
-    
+
     - name: convert list to map
       ansible.builtin.debug:
         msg: "{{ tagslist | items2dict }}"
