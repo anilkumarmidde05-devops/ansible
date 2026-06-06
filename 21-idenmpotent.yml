@@ -1,0 +1,8 @@
+- name: idenmpotent
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+    - name: user creation
+      ansible.bultin.user:
+        name: Anilkumar
